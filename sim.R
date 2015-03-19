@@ -1,2 +1,4 @@
 x <- rnorm(10)
-save(x, file="x.RData")
+y <- rnorm(10)
+z <- x*y
+save(z, file="x.RData")
